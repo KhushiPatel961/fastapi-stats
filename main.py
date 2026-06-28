@@ -38,7 +38,7 @@ def stats(values: str = Query(...)):
 
     return {
         "email": "22f3001561@ds.study.iitm.ac.in",
-        "count": len(nums),f
+        "count": len(nums),
         "sum": sum(nums),
         "min": min(nums),
         "max": max(nums),
