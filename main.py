@@ -2,7 +2,6 @@ from fastapi import FastAPI
 from fastapi.responses import JSONResponse
 from pydantic import BaseModel
 import jwt
-
 app = FastAPI()
 
 PUBLIC_KEY = """-----BEGIN PUBLIC KEY-----
